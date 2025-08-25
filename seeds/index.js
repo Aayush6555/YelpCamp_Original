@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const cities = require('./cities');
 const { places, descriptors } = require('./seedHelpers');
 const Campground = require('../models/campground');
-const DB_URL = process.env.DB_URL;
+const DB_URL = "mongodb+srv://aayushsingh5526:Oi6vukyMb5Jb1Mzn@cluster0.1303hgx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose.connect(DB_URL, {
 
